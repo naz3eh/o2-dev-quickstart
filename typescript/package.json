@@ -1,0 +1,29 @@
+{
+  "name": "o2-dev-quickstart-typescript",
+  "version": "1.0.0",
+  "description": "O2 DEX TypeScript integration example",
+  "main": "create_flow.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx create_flow.ts",
+    "build": "tsc",
+    "dev": "tsx watch create_flow.ts"
+  },
+  "keywords": [
+    "o2",
+    "dex",
+    "fuel",
+    "blockchain",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fuels": "^0.96.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
